@@ -6,10 +6,11 @@ This extension for Visual Studio Code adds snippets for [Forge UI](https://devel
 
 Type part of a snippet, press enter, and the snippet unfolds.
 
-| Shortcut Identifier | Component                                                                                       | Code                             |
-| ------------------: | ----------------------------------------------------------------------------------------------- | -------------------------------- |
-|             `fbtn→` | [Button component](https://developer.atlassian.com/platform/forge/ui-components/button/)        | [Button code](#ButtonCode)       |
-|            `fbtns→` | [ButtonSet component](https://developer.atlassian.com/platform/forge/ui-components/button-set/) | [ButtonSet code](#ButtonSetCode) |
+| Shortcut Identifier | Component           | Code                             |
+| ------------------: | ------------------- | -------------------------------- |
+|             `fbtn→` | Button component    | [Button code](#ButtonCode)       |
+|            `fbtns→` | ButtonSet component | [ButtonSet code](#ButtonSetCode) |
+|             `ftxt→` | Text component      | [Text code](#TextCode)           |
 
 Alternatively, press Ctrl+Space to activate snippets from within the editor.
 
@@ -25,6 +26,7 @@ Alternatively, press Ctrl+Space to activate snippets from within the editor.
 ## ButtonCode
 
 **Shortcut**: _fbtn→_
+[Button component](https://developer.atlassian.com/platform/forge/ui-components/button/)
 
 ```jsx
 <Button
@@ -34,6 +36,9 @@ Alternatively, press Ctrl+Space to activate snippets from within the editor.
 ```
 
 ## ButtonSetCode
+
+**Shortcut**: _fbtns→_
+[ButtonSet component](https://developer.atlassian.com/platform/forge/ui-components/button-set/)
 
 ```jsx
 <ButtonSet>
@@ -46,4 +51,13 @@ Alternatively, press Ctrl+Space to activate snippets from within the editor.
     onClick={() => console.log('perform button 2 click action')}
   />
 </ButtonSet>
+```
+
+## TextCode
+
+**Shortcut**: _ftxt→_
+[Text component](https://developer.atlassian.com/platform/forge/ui-components/text/)
+
+```jsx
+<Text text="sample text" />
 ```
