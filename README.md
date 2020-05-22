@@ -20,6 +20,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 |           `ftxtol→` | Ordered list component   | [Ordered list code](#OrderedListCode)     |
 |           `ftxtlo→` | Lozenge component        | [Lozenge code](#LozengeCode)              |
 |           `ftxtdl→` | DateLozenge component    | [DateLozenge code](#DateLozengeCode)      |
+|          `ffrgmnt→` | Fragment component       | [Fragment code](#FragmentCode)            |
 
 Alternatively, press Ctrl+Space to activate snippets from within the editor.
 
@@ -160,4 +161,16 @@ Alternatively, press Ctrl+Space to activate snippets from within the editor.
 <Text>
   <DateLozenge value={new Date('07-29-1988').getTime()} />
 </Text>
+```
+
+## FragmentCode
+
+**Shortcut**: _ffrgmnt→_
+[Fragment component](https://developer.atlassian.com/platform/forge/ui-components/fragment/)
+
+```jsx
+<Fragment>
+  <Text content="Hello world!" />
+  <Button text="Do something" onClick={onClick} />
+</Fragment>
 ```

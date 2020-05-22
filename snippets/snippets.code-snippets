@@ -108,8 +108,8 @@
     "prefix": "ffrgmnt",
     "body": [
       "<Fragment>",
-      "  <Text content=\"Hello world!\" />",
-      "  <Button text=\"Do something\" onClick={onClick} />",
+      "\t<Text content=\"Hello world!\" />",
+      "\t<Button text=\"Do something\" onClick={onClick} />",
       "</Fragment>"
     ],
     "description": "Fragment component, a container for displaying multiple components. Can contain any Forge UI component.",
