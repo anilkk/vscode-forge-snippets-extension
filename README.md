@@ -22,6 +22,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 |           `ftxtdl→` | DateLozenge component    | [DateLozenge code](#DateLozengeCode)      |
 |          `ffrgmnt→` | Fragment component       | [Fragment code](#FragmentCode)            |
 |             `fimg→` | Image component          | [Image code](#ImageCode)                  |
+|            `ftabl→` | Table component          | [Table code](#TableCode)                  |
 
 Alternatively, press Ctrl+Space to activate snippets from within the editor.
 
@@ -186,4 +187,30 @@ Alternatively, press Ctrl+Space to activate snippets from within the editor.
   src="https://media.giphy.com/media/jUwpNzg9IcyrK/source.gif"
   alt="homer"
 />
+```
+
+## TableCode
+
+**Shortcut**: _ftabl→_
+[Table component](https://developer.atlassian.com/platform/forge/ui-components/table/)
+
+```jsx
+<Table>
+  <Head>
+    <Cell>
+      <Text content="Header Column 1=" />
+    </Cell>
+    <Cell>
+      <Text content="Header Column 2=" />
+    </Cell>
+  </Head>
+  <Row>
+    <Cell>
+      <Text content="Row 1 Column 1=" />
+    </Cell>
+    <Cell>
+      <Text content="Row 1 Column 2=" />
+    </Cell>
+  </Row>
+</Table>
 ```
