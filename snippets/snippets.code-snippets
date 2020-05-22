@@ -131,9 +131,9 @@
     "body": [
       "<Button text=\"Show modal\" onClick={() => setOpen(true)} />",
       "{isOpen && (",
-      "  <ModalDialog header=\"My modal dialog\" onClose={() => setOpen(false)}>",
-      "    <Text>Hello there!</Text>",
-      "  </ModalDialog>",
+      "\t<ModalDialog header=\"My modal dialog\" onClose={() => setOpen(false)}>",
+      "\t\t<Text>Hello there!</Text>",
+      "\t</ModalDialog>",
       ")}"
     ],
     "description": "ModalDialog component, A modal dialog displays content that floats above the application’s user interface. Use modal dialogs to present a short-term task initiated by the user.",

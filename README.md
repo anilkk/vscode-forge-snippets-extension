@@ -22,6 +22,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 |           `ftxtdl→` | DateLozenge component    | [DateLozenge code](#DateLozengeCode)      |
 |          `ffrgmnt→` | Fragment component       | [Fragment code](#FragmentCode)            |
 |             `fimg→` | Image component          | [Image code](#ImageCode)                  |
+|            `fmodd→` | ModalDialog component    | [ModalDialog code](#ModalDialogCode)      |
 |            `ftabl→` | Table component          | [Table code](#TableCode)                  |
 
 Alternatively, press Ctrl+Space to activate snippets from within the editor.
@@ -182,12 +183,25 @@ Alternatively, press Ctrl+Space to activate snippets from within the editor.
 **Shortcut**: _fimg→_
 [Image component](https://developer.atlassian.com/platform/forge/ui-components/image/)
 
-```jsx
+````jsx
 <Image
   src="https://media.giphy.com/media/jUwpNzg9IcyrK/source.gif"
   alt="homer"
 />
-```
+
+## ModalDialog
+
+**Shortcut**: _fmodd→_
+[ModalDialog component](https://developer.atlassian.com/platform/forge/ui-components/modal-dialog/)
+
+```jsx
+<Button text="Show modal" onClick={() => setOpen(true)} />
+{isOpen && (
+<ModalDialog header=\"My modal dialog\" onClose={() => setOpen(false)}>
+<Text>Hello there!</Text>
+</ModalDialog>"
+)}
+````
 
 ## TableCode
 
