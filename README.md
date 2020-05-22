@@ -18,6 +18,8 @@ Type part of a snippet, press enter, and the snippet unfolds.
 |            `ftxtc→` | Code component           | [Code](#Code)                             |
 |           `ftxtul→` | Unordered list component | [Unordered list code](#UnorderedListCode) |
 |           `ftxtol→` | Ordered list component   | [Ordered list code](#OrderedListCode)     |
+|           `ftxtlo→` | Lozenge component        | [Lozenge code](#LozengeCode)              |
+|           `ftxtdl→` | DateLozenge component    | [DateLozenge code](#DateLozengeCode)      |
 
 Alternatively, press Ctrl+Space to activate snippets from within the editor.
 
@@ -136,4 +138,26 @@ Alternatively, press Ctrl+Space to activate snippets from within the editor.
 <Text> 2. Item 2 </Text>
 <Text> 3. Item 3 </Text>
 <Text> 4. Item 4 </Text>
+```
+
+## LozengeCode
+
+**Shortcut**: _ftxtlo→_
+[Lozenge component](https://developer.atlassian.com/platform/forge/ui-components/text/#lozenge)
+
+```jsx
+<Text>
+  You have 4 tickets: <Lozenge text="In progress" appearance="inprogress" />
+</Text>
+```
+
+## DateLozenge
+
+**Shortcut**: _ftxtdl→_
+[DateLozenge component](https://developer.atlassian.com/platform/forge/ui-components/text/#lozenge)
+
+```jsx
+<Text>
+  <DateLozenge value={new Date('07-29-1988').getTime()} />
+</Text>
 ```

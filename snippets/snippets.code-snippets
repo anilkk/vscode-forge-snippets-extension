@@ -88,7 +88,7 @@
     "prefix": "ftxtlo",
     "body": [
       "<Text>",
-      "   You have 4 tickets: <Lozenge text=\"In progress\" appearance=\"inprogress\" />",
+      "\tYou have 4 tickets: <Lozenge text=\"In progress\" appearance=\"inprogress\" />",
       "</Text>"
     ],
     "description": "Lozenge text component",
@@ -98,7 +98,7 @@
     "prefix": "ftxtdl",
     "body": [
       "<Text>",
-      "   <DateLozenge value={new Date('07-29-1988').getTime()} />",
+      "\t<DateLozenge value={new Date('07-29-1988').getTime()} />",
       "</Text>"
     ],
     "description": "DateLozenge text component",
