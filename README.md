@@ -15,6 +15,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 |            `ftxte→` | Text emphasis component | [Text emphasis code](#TextEmphasisCode) |
 |         `ftxtstri→` | Text strike component   | [Text strike code](#TextStrikeCode)     |
 |            `ftxtl→` | Text link component     | [Text link code](#TextLinkCode)         |
+|            `ftxtc→` | Code component          | [Code](#Code)                           |
 
 Alternatively, press Ctrl+Space to activate snippets from within the editor.
 
@@ -100,4 +101,13 @@ Alternatively, press Ctrl+Space to activate snippets from within the editor.
 
 ```jsx
 <Text>[It's a link to Forge](https://www.atlassian.com/forge)</Text>
+```
+
+## Code
+
+**Shortcut**: _ftxtc→_
+[Text component](https://developer.atlassian.com/platform/forge/ui-components/text/)
+
+```jsx
+<Text>{`<Text>sample text</Text>`}</Text>
 ```
