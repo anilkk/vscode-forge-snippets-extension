@@ -6,11 +6,15 @@ This extension for Visual Studio Code adds snippets for [Forge UI](https://devel
 
 Type part of a snippet, press enter, and the snippet unfolds.
 
-| Shortcut Identifier | Component           | Code                             |
-| ------------------: | ------------------- | -------------------------------- |
-|             `fbtn→` | Button component    | [Button code](#ButtonCode)       |
-|            `fbtns→` | ButtonSet component | [ButtonSet code](#ButtonSetCode) |
-|             `ftxt→` | Text component      | [Text code](#TextCode)           |
+| Shortcut Identifier | Component               | Code                                    |
+| ------------------: | ----------------------- | --------------------------------------- |
+|             `fbtn→` | Button component        | [Button code](#ButtonCode)              |
+|            `fbtns→` | ButtonSet component     | [ButtonSet code](#ButtonSetCode)        |
+|             `ftxt→` | Text component          | [Text code](#TextCode)                  |
+|            `ftxts→` | Text strong component   | [Text strong code](#TextStrongCode)     |
+|            `ftxte→` | Text emphasis component | [Text emphasis code](#TextEmphasisCode) |
+|         `ftxtstri→` | Text strike component   | [Text strike code](#TextStrikeCode)     |
+|            `ftxtl→` | Text link component     | [Text link code](#TextLinkCode)         |
 
 Alternatively, press Ctrl+Space to activate snippets from within the editor.
 
@@ -59,5 +63,41 @@ Alternatively, press Ctrl+Space to activate snippets from within the editor.
 [Text component](https://developer.atlassian.com/platform/forge/ui-components/text/)
 
 ```jsx
-<Text text="sample text" />
+<Text>sample text</Text>
+```
+
+## TextStrongCode
+
+**Shortcut**: _ftxts→_
+[Text component](https://developer.atlassian.com/platform/forge/ui-components/text/)
+
+```jsx
+<Text>**It's a strong text**</Text>
+```
+
+## TextEmphasisCode
+
+**Shortcut**: _ftxte→_
+[Text component](https://developer.atlassian.com/platform/forge/ui-components/text/)
+
+```jsx
+<Text>*It's a emphasis text*</Text>
+```
+
+## TextStrikeCode
+
+**Shortcut**: _ftxtstri→_
+[Text component](https://developer.atlassian.com/platform/forge/ui-components/text/)
+
+```jsx
+<Text>~~strike~~</Text>
+```
+
+## TextLinkCode
+
+**Shortcut**: _ftxtl→_
+[Text component](https://developer.atlassian.com/platform/forge/ui-components/text/)
+
+```jsx
+<Text>[It's a link to Forge](https://www.atlassian.com/forge)</Text>
 ```
