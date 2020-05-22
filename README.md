@@ -6,16 +6,18 @@ This extension for Visual Studio Code adds snippets for [Forge UI](https://devel
 
 Type part of a snippet, press enter, and the snippet unfolds.
 
-| Shortcut Identifier | Component               | Code                                    |
-| ------------------: | ----------------------- | --------------------------------------- |
-|             `fbtn→` | Button component        | [Button code](#ButtonCode)              |
-|            `fbtns→` | ButtonSet component     | [ButtonSet code](#ButtonSetCode)        |
-|             `ftxt→` | Text component          | [Text code](#TextCode)                  |
-|            `ftxts→` | Text strong component   | [Text strong code](#TextStrongCode)     |
-|            `ftxte→` | Text emphasis component | [Text emphasis code](#TextEmphasisCode) |
-|         `ftxtstri→` | Text strike component   | [Text strike code](#TextStrikeCode)     |
-|            `ftxtl→` | Text link component     | [Text link code](#TextLinkCode)         |
-|            `ftxtc→` | Code component          | [Code](#Code)                           |
+| Shortcut Identifier | Component                | Code                                      |
+| ------------------: | ------------------------ | ----------------------------------------- |
+|             `fbtn→` | Button component         | [Button code](#ButtonCode)                |
+|            `fbtns→` | ButtonSet component      | [ButtonSet code](#ButtonSetCode)          |
+|             `ftxt→` | Text component           | [Text code](#TextCode)                    |
+|            `ftxts→` | Text strong component    | [Text strong code](#TextStrongCode)       |
+|            `ftxte→` | Text emphasis component  | [Text emphasis code](#TextEmphasisCode)   |
+|         `ftxtstri→` | Text strike component    | [Text strike code](#TextStrikeCode)       |
+|            `ftxtl→` | Text link component      | [Text link code](#TextLinkCode)           |
+|            `ftxtc→` | Code component           | [Code](#Code)                             |
+|           `ftxtul→` | Unordered list component | [Unordered list code](#UnorderedListCode) |
+|           `ftxtol→` | Ordered list component   | [Ordered list code](#OrderedListCode)     |
 
 Alternatively, press Ctrl+Space to activate snippets from within the editor.
 
@@ -110,4 +112,28 @@ Alternatively, press Ctrl+Space to activate snippets from within the editor.
 
 ```jsx
 <Text>{`<Text>sample text</Text>`}</Text>
+```
+
+## UnorderedListCode
+
+**Shortcut**: _ftxtul→_
+[Text component](https://developer.atlassian.com/platform/forge/ui-components/text/)
+
+```jsx
+<Text> - Item 1 </Text>
+<Text> - Item 2 </Text>
+<Text> - Item 3 </Text>
+<Text> - Item 4 </Text>
+```
+
+## OrderedListCode
+
+**Shortcut**: _ftxtol→_
+[Text component](https://developer.atlassian.com/platform/forge/ui-components/text/)
+
+```jsx
+<Text> 1. Item 1 </Text>
+<Text> 2. Item 2 </Text>
+<Text> 3. Item 3 </Text>
+<Text> 4. Item 4 </Text>
 ```
