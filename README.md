@@ -21,6 +21,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 |           `ftxtlo→` | Lozenge component        | [Lozenge code](#LozengeCode)              |
 |           `ftxtdl→` | DateLozenge component    | [DateLozenge code](#DateLozengeCode)      |
 |          `ffrgmnt→` | Fragment component       | [Fragment code](#FragmentCode)            |
+|             `fimg→` | Image component          | [Image code](#ImageCode)                  |
 
 Alternatively, press Ctrl+Space to activate snippets from within the editor.
 
@@ -173,4 +174,16 @@ Alternatively, press Ctrl+Space to activate snippets from within the editor.
   <Text content="Hello world!" />
   <Button text="Do something" onClick={onClick} />
 </Fragment>
+```
+
+## ImageCode
+
+**Shortcut**: _fimg→_
+[Image component](https://developer.atlassian.com/platform/forge/ui-components/image/)
+
+```jsx
+<Image
+  src="https://media.giphy.com/media/jUwpNzg9IcyrK/source.gif"
+  alt="homer"
+/>
 ```

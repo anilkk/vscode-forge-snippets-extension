@@ -119,8 +119,8 @@
     "prefix": "fimg",
     "body": [
       "<Image",
-      "  src=\"https://media.giphy.com/media/jUwpNzg9IcyrK/source.gif\"",
-      "  alt=\"homer\"",
+      "\tsrc=\"https://media.giphy.com/media/jUwpNzg9IcyrK/source.gif\"",
+      "\talt=\"homer\"",
       "/>"
     ],
     "description": "Image component, Image with The URL and the alternative text displayed if the image is not loaded.",
