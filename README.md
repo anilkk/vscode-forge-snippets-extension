@@ -24,6 +24,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 |             `fimg→` | Image component          | [Image code](#ImageCode)                  |
 |            `fmodd→` | ModalDialog component    | [ModalDialog code](#ModalDialogCode)      |
 |            `ftabl→` | Table component          | [Table code](#TableCode)                  |
+|            `fform→` | Form component           | [Form code](#FormCode)                    |
 
 Alternatively, press Ctrl+Space to activate snippets from within the editor.
 
@@ -227,4 +228,19 @@ Alternatively, press Ctrl+Space to activate snippets from within the editor.
     </Cell>
   </Row>
 </Table>
+```
+
+## Form
+
+**Shortcut**: _fform→_
+[Form component](https://developer.atlassian.com/platform/forge/ui-components/form/)
+
+```jsx
+<Form onSubmit={setSubmitted}>
+  <TextField name="username" label="Username" />
+  <CheckboxGroup name="products" legend="Products">
+    <Checkbox defaultChecked value="jira" label="Jira" />
+    <Checkbox value="confluence" label="Confluence" />
+  </CheckboxGroup>
+</Form>
 ```

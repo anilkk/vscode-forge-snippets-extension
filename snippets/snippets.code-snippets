@@ -163,5 +163,19 @@
     ],
     "description": "Table component, This component presents data and components in a grid format. It cannot contain another Table component within itself.",
     "scope": "javascriptreact"
-  }
+  },
+  "Forge Form component": {
+    "prefix": "fform",
+    "body": [
+      "<Form onSubmit={setSubmitted}>",
+      "\t<TextField name=\"username\" label=\"Username\" />",
+      "\t<CheckboxGroup name=\"products\" legend=\"Products\">",
+      "\t\t<Checkbox defaultChecked value=\"jira\" label=\"Jira\" />",
+      "\t\t<Checkbox value=\"confluence\" label=\"Confluence\" />",
+      "\t</CheckboxGroup>",
+      "</Form>"
+    ],
+    "description": "ModalDialog component, A modal dialog displays content that floats above the application’s user interface. Use modal dialogs to present a short-term task initiated by the user.",
+    "scope": "javascriptreact"
+  },
 }
