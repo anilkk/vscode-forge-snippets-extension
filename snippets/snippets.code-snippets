@@ -175,7 +175,15 @@
       "\t</CheckboxGroup>",
       "</Form>"
     ],
-    "description": "ModalDialog component, A modal dialog displays content that floats above the application’s user interface. Use modal dialogs to present a short-term task initiated by the user.",
+    "description": "The Form component contains a list of components, a submit button, and a function that handles the submit event. It can contain any other component, except another Form or a ConfigForm.",
+    "scope": "javascriptreact"
+  },
+  "Forge Form TextField component": {
+    "prefix": "fformtf",
+    "body": [
+      "<TextField label=\"Name\" name=\"name\" />"
+    ],
+    "description": "This component provides a text field input control. Use this when you need a single line of input. It can only be used inside a Form or ConfigForm.",
     "scope": "javascriptreact"
   },
 }

@@ -25,6 +25,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 |            `fmodd→` | ModalDialog component    | [ModalDialog code](#ModalDialogCode)      |
 |            `ftabl→` | Table component          | [Table code](#TableCode)                  |
 |            `fform→` | Form component           | [Form code](#FormCode)                    |
+|          `fformtf→` | Form TextField component | [Form TextField](#FormTextFieldCode)      |
 
 Alternatively, press Ctrl+Space to activate snippets from within the editor.
 
@@ -243,4 +244,13 @@ Alternatively, press Ctrl+Space to activate snippets from within the editor.
     <Checkbox value="confluence" label="Confluence" />
   </CheckboxGroup>
 </Form>
+```
+
+## FormTextFieldCode
+
+**Shortcut**: _fformtf→_
+[Form TextField component](https://developer.atlassian.com/platform/forge/ui-components/form/#textfield)
+
+```jsx
+<TextField label="Name" name="name" />
 ```
