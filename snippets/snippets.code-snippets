@@ -186,4 +186,12 @@
     "description": "This component provides a text field input control. Use this when you need a single line of input. It can only be used inside a Form or ConfigForm.",
     "scope": "javascriptreact"
   },
+  "Forge Form TextArea component": {
+    "prefix": "fformta",
+    "body": [
+      "<TextArea label=\"Message\" name=\"message\" />"
+    ],
+    "description": "This component provides a text area input control. Use it when you need multi-line input. It can only be used inside a Form or ConfigForm.",
+    "scope": "javascriptreact"
+  },
 }

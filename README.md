@@ -254,3 +254,12 @@ Alternatively, press Ctrl+Space to activate snippets from within the editor.
 ```jsx
 <TextField label="Name" name="name" />
 ```
+
+## FormTextAreaCode
+
+**Shortcut**: _fformta→_
+[Form TextArea component](https://developer.atlassian.com/platform/forge/ui-components/form/#textarea)
+
+```jsx
+<TextArea label="Message" name="message" />
+```
