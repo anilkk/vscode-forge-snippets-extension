@@ -180,18 +180,26 @@
   },
   "Forge Form TextField component": {
     "prefix": "fformtf",
-    "body": [
-      "<TextField label=\"Name\" name=\"name\" />"
-    ],
+    "body": ["<TextField label=\"Name\" name=\"name\" />"],
     "description": "This component provides a text field input control. Use this when you need a single line of input. It can only be used inside a Form or ConfigForm.",
     "scope": "javascriptreact"
   },
   "Forge Form TextArea component": {
     "prefix": "fformta",
-    "body": [
-      "<TextArea label=\"Message\" name=\"message\" />"
-    ],
+    "body": ["<TextArea label=\"Message\" name=\"message\" />"],
     "description": "This component provides a text area input control. Use it when you need multi-line input. It can only be used inside a Form or ConfigForm.",
     "scope": "javascriptreact"
   },
+  "Forge Form Select component": {
+    "prefix": "fforms",
+    "body": [
+      "<Select label=\"With a defaultSelected\" name=\"milestone\">",
+      "\t<Option defaultSelected label=\"Milestone 1\" value=\"one\" />",
+      "\t<Option label=\"Milestone 2\" value=\"two\" />",
+      "\t<Option label=\"Milestone 3\" value=\"three\" />",
+      "</Select>"
+    ],
+    "description": "A form field component that provides a select list control. It can only be used inside a Form or ConfigForm.",
+    "scope": "javascriptreact"
+  }
 }

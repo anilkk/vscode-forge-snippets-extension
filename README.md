@@ -26,6 +26,8 @@ Type part of a snippet, press enter, and the snippet unfolds.
 |            `ftabl→` | Table component          | [Table code](#TableCode)                  |
 |            `fform→` | Form component           | [Form code](#FormCode)                    |
 |          `fformtf→` | Form TextField component | [Form TextField](#FormTextFieldCode)      |
+|          `fformta→` | Form TextArea component  | [Form TextField](#FormTextAreaCode)       |
+|           `fforms→` | Form Select component    | [Form Select](#FormSelectCode)            |
 
 Alternatively, press Ctrl+Space to activate snippets from within the editor.
 
@@ -262,4 +264,17 @@ Alternatively, press Ctrl+Space to activate snippets from within the editor.
 
 ```jsx
 <TextArea label="Message" name="message" />
+```
+
+## FormSelectCode
+
+**Shortcut**: _fforms→_
+[Form Select component](https://developer.atlassian.com/platform/forge/ui-components/form/#select)
+
+```jsx
+<Select label="With a defaultSelected" name="milestone">
+  <Option defaultSelected label="Milestone 1" value="one" />
+  <Option label="Milestone 2" value="two" />
+  <Option label="Milestone 3" value="three" />
+</Select>
 ```
