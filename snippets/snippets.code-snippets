@@ -2,7 +2,7 @@
   "Forge Button component": {
     "prefix": "fbtn",
     "body": "<Button text=\"button text\" onClick={() => console.log('perform button click action')} />",
-    "description": "Button Component",
+    "description": "Button component, Buttons are used as triggers for actions. A row of buttons is displayed in a ButtonSet.",
     "scope": "javascriptreact"
   },
   "Forge ButtonSet component": {
@@ -19,13 +19,13 @@
       "\t/>",
       "</ButtonSet>"
     ],
-    "description": "ButtonSet Component",
+    "description": "ButtonSet component, a layout container for multiple buttons.",
     "scope": "javascriptreact"
   },
   "Forge Text component": {
     "prefix": "ftxt",
     "body": ["<Text>", "\tsample text", "</Text>"],
-    "description": "Text Component",
+    "description": "Text Component, displays plain text or a subset of markdown content, as well as inline components.",
     "scope": "javascriptreact"
   },
   "Forge Text Strong component": {
@@ -53,7 +53,7 @@
       "\t[It's a link to Forge](https://www.atlassian.com/forge)",
       "</Text>"
     ],
-    "description": "Link text component",
+    "description": "Link component",
     "scope": "javascriptreact"
   },
   "Forge Unordered list text component": {
@@ -81,7 +81,7 @@
   "Forge Code component": {
     "prefix": "fcode",
     "body": "<Text>{`<Text>sample text</Text>`}</Text>",
-    "description": "Code text component",
+    "description": "Code component",
     "scope": "javascriptreact"
   },
   "Forge Lozenge component": {
@@ -91,7 +91,7 @@
       "\tYou have 4 tickets: <Lozenge text=\"In progress\" appearance=\"inprogress\" />",
       "</Text>"
     ],
-    "description": "Lozenge text component",
+    "description": "Lozenge text component, an inline component that displays a status lozenge.",
     "scope": "javascriptreact"
   },
   "Forge DateLozenge component": {
@@ -101,7 +101,7 @@
       "\t<DateLozenge value={new Date('07-29-1988').getTime()} />",
       "</Text>"
     ],
-    "description": "DateLozenge text component",
+    "description": "DateLozenge text component, an inline component that displays a calendar date.",
     "scope": "javascriptreact"
   },
   "Forge Fragment component": {
