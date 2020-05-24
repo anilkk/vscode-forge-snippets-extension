@@ -219,5 +219,16 @@
     "body": ["<DatePicker name=\"date\" label=\"Appointment Date\" />"],
     "description": "A form component that provides calendar date input. The value displayed is in the user’s locale (i.e. 'DD-MM-YYYY' for en-NZ.). It can only be used inside a Form or ConfigForm.",
     "scope": "javascriptreact"
+  },
+  "Forge Form CheckboxGroup component": {
+    "prefix": "fformcg",
+    "body": [
+      "<CheckboxGroup legend=\"Products\" name=\"products\">",
+      "\t<Checkbox value=\"jira\" label=\"Jira\" />",
+      "\t<Checkbox value=\"confluence\" label=\"Confluence\" />",
+      "</CheckboxGroup>"
+    ],
+    "description": "A logical group of Checkbox components. It can only be used within a Form or ConfigForm. All Checkbox components must be contained within a CheckboxGroup.",
+    "scope": "javascriptreact"
   }
 }
