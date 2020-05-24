@@ -230,5 +230,20 @@
     ],
     "description": "A logical group of Checkbox components. It can only be used within a Form or ConfigForm. All Checkbox components must be contained within a CheckboxGroup.",
     "scope": "javascriptreact"
+  },
+  "Forge ConfigForm component": {
+    "prefix": "fconfigform",
+    "body": [
+      "const Config = () => {",
+      "\treturn (",
+      "\t\t<ConfigForm>",
+      "\t\t\t<TextField name=\"name\" label=\"Pet name\" />",
+      "\t\t\t<TextField name=\"age\" label=\"Pet age\" />",
+      "\t\t</ConfigForm>",
+      "\t);",
+      "};"
+    ],
+    "description": "A ConfigForm is a special type of Form that defines the configuration options of a macro. It can contain any other component, except another Form or a ConfigForm. Use configuration to store general data, but not sensitive information. The configuration data is stored in plaintext, so other users and apps can modify the values. Unlike a Form, a ConfigForm does not have an onSubmit prop. Instead, you retrieve the values with the useConfig hook.",
+    "scope": "javascriptreact"
   }
 }
