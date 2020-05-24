@@ -25,3 +25,7 @@ All notable changes to the "forge-snippets" extension will be documented in this
 ## [0.0.6]
 
 - added contact and update docs.
+
+## [0.0.7]
+
+- Add demo gif to docs.

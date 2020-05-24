@@ -3,7 +3,7 @@
   "displayName": "Forge snippets",
   "description": "Atlassian Forge UI snippets generator",
   "publisher": "AnilKumar",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "license": "MIT",
   "icon": "icon.png",
   "repository": {
@@ -17,11 +17,9 @@
     "Snippets"
   ],
   "contributes": {
-    "snippets": [
-      {
-        "language": "javascriptreact",
-        "path": "./snippets/snippets.code-snippets"
-      }
-    ]
+    "snippets": [{
+      "language": "javascriptreact",
+      "path": "./snippets/snippets.code-snippets"
+    }]
   }
 }
