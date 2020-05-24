@@ -6,28 +6,29 @@ This extension for Visual Studio Code adds snippets for [Forge UI](https://devel
 
 Type part of a snippet, press enter, and the snippet unfolds.
 
-| Shortcut Identifier | Component                | Code                                      |
-| ------------------: | ------------------------ | ----------------------------------------- |
-|             `fbtn→` | Button component         | [Button code](#ButtonCode)                |
-|            `fbtns→` | ButtonSet component      | [ButtonSet code](#ButtonSetCode)          |
-|             `ftxt→` | Text component           | [Text code](#TextCode)                    |
-|            `ftxts→` | Text strong component    | [Text strong code](#TextStrongCode)       |
-|            `ftxte→` | Text emphasis component  | [Text emphasis code](#TextEmphasisCode)   |
-|         `ftxtstri→` | Text strike component    | [Text strike code](#TextStrikeCode)       |
-|            `ftxtl→` | Text link component      | [Text link code](#TextLinkCode)           |
-|            `ftxtc→` | Code component           | [Code](#Code)                             |
-|           `ftxtul→` | Unordered list component | [Unordered list code](#UnorderedListCode) |
-|           `ftxtol→` | Ordered list component   | [Ordered list code](#OrderedListCode)     |
-|           `ftxtlo→` | Lozenge component        | [Lozenge code](#LozengeCode)              |
-|           `ftxtdl→` | DateLozenge component    | [DateLozenge code](#DateLozengeCode)      |
-|          `ffrgmnt→` | Fragment component       | [Fragment code](#FragmentCode)            |
-|             `fimg→` | Image component          | [Image code](#ImageCode)                  |
-|            `fmodd→` | ModalDialog component    | [ModalDialog code](#ModalDialogCode)      |
-|            `ftabl→` | Table component          | [Table code](#TableCode)                  |
-|            `fform→` | Form component           | [Form code](#FormCode)                    |
-|          `fformtf→` | Form TextField component | [Form TextField](#FormTextFieldCode)      |
-|          `fformta→` | Form TextArea component  | [Form TextField](#FormTextAreaCode)       |
-|           `fforms→` | Form Select component    | [Form Select](#FormSelectCode)            |
+| Shortcut Identifier | Component                 | Code                                      |
+| ------------------: | ------------------------- | ----------------------------------------- |
+|             `fbtn→` | Button component          | [Button code](#ButtonCode)                |
+|            `fbtns→` | ButtonSet component       | [ButtonSet code](#ButtonSetCode)          |
+|             `ftxt→` | Text component            | [Text code](#TextCode)                    |
+|            `ftxts→` | Text strong component     | [Text strong code](#TextStrongCode)       |
+|            `ftxte→` | Text emphasis component   | [Text emphasis code](#TextEmphasisCode)   |
+|         `ftxtstri→` | Text strike component     | [Text strike code](#TextStrikeCode)       |
+|            `ftxtl→` | Text link component       | [Text link code](#TextLinkCode)           |
+|            `ftxtc→` | Code component            | [Code](#Code)                             |
+|           `ftxtul→` | Unordered list component  | [Unordered list code](#UnorderedListCode) |
+|           `ftxtol→` | Ordered list component    | [Ordered list code](#OrderedListCode)     |
+|           `ftxtlo→` | Lozenge component         | [Lozenge code](#LozengeCode)              |
+|           `ftxtdl→` | DateLozenge component     | [DateLozenge code](#DateLozengeCode)      |
+|          `ffrgmnt→` | Fragment component        | [Fragment code](#FragmentCode)            |
+|             `fimg→` | Image component           | [Image code](#ImageCode)                  |
+|            `fmodd→` | ModalDialog component     | [ModalDialog code](#ModalDialogCode)      |
+|            `ftabl→` | Table component           | [Table code](#TableCode)                  |
+|            `fform→` | Form component            | [Form code](#FormCode)                    |
+|          `fformtf→` | Form TextField component  | [Form TextField](#FormTextFieldCode)      |
+|          `fformta→` | Form TextArea component   | [Form TextField](#FormTextAreaCode)       |
+|           `fforms→` | Form Select component     | [Form Select](#FormSelectCode)            |
+|          `fformrg→` | Form RadioGroup component | [Form RadioGroup](#FormRadioGroupCode)    |
 
 Alternatively, press Ctrl+Space to activate snippets from within the editor.
 
@@ -277,4 +278,17 @@ Alternatively, press Ctrl+Space to activate snippets from within the editor.
   <Option label="Milestone 2" value="two" />
   <Option label="Milestone 3" value="three" />
 </Select>
+```
+
+## FormRadioGroupCode
+
+**Shortcut**: _fformrg→_
+[Form RadioGroup component](https://developer.atlassian.com/platform/forge/ui-components/form/#radiogroup)
+
+```jsx
+<RadioGroup name="flavor" label="Pick a flavor">
+  <Radio defaultChecked label="Strawberry" value="strawberry" />
+  <Radio label="Cinnamon" value="cinnamon" />
+  <Radio label="Chocolate" value="chocolate" />
+</RadioGroup>
 ```

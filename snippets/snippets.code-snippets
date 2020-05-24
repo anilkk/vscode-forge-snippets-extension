@@ -201,5 +201,17 @@
     ],
     "description": "A form field component that provides a select list control. It can only be used inside a Form or ConfigForm.",
     "scope": "javascriptreact"
+  },
+  "Forge Form RadioGroup component": {
+    "prefix": "fformrg",
+    "body": [
+      "<RadioGroup name=\"flavor\" label=\"Pick a flavor\">",
+      "\t<Radio defaultChecked label=\"Strawberry\" value=\"strawberry\" />",
+      "\t<Radio label=\"Cinnamon\" value=\"cinnamon\" />",
+      "\t<Radio label=\"Chocolate\" value=\"chocolate\" />",
+      "</RadioGroup>"
+    ],
+    "description": "A component to group Radio buttons. It can only be used inside a Form or ConfigForm.",
+    "scope": "javascriptreact"
   }
 }
