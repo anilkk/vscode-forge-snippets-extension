@@ -34,7 +34,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 |          `fformup→` | Form UserPicker component    | [Form UserPicker](#FormUserPickerCode)             |
 |      `fconfigform→` | ConfigForm component         | [ConfigForm CheckboxGroup](#FormCheckboxGroupCode) |
 |          `favatar→` | Avatar component             | [Avatar](#AvatarCode)                              |
-|         `favatars→` | AvatarStack component        | [AvatarStack](#FormUsAvatarStackCode)              |
+|         `favatars→` | AvatarStack component        | [AvatarStack](#AvatarStackCode)                    |
 
 Alternatively, press Ctrl+Space to activate snippets from within the editor.
 
@@ -181,7 +181,7 @@ Coming soon...
 </Text>
 ```
 
-## DateLozenge
+## DateLozengeCode
 
 **Shortcut**: _fdate→_
 [DateLozenge component](https://developer.atlassian.com/platform/forge/ui-components/text/#datelozenge)
@@ -209,13 +209,14 @@ Coming soon...
 **Shortcut**: _fimg→_
 [Image component](https://developer.atlassian.com/platform/forge/ui-components/image/)
 
-````jsx
+```jsx
 <Image
   src="https://media.giphy.com/media/jUwpNzg9IcyrK/source.gif"
   alt="homer"
 />
+```
 
-## ModalDialog
+## ModalDialogCode
 
 **Shortcut**: _fmodd→_
 [ModalDialog component](https://developer.atlassian.com/platform/forge/ui-components/modal-dialog/)
@@ -227,7 +228,7 @@ Coming soon...
 <Text>Hello there!</Text>
 </ModalDialog>"
 )}
-````
+```
 
 ## TableCode
 
@@ -255,7 +256,7 @@ Coming soon...
 </Table>
 ```
 
-## Form
+## FormCode
 
 **Shortcut**: _fform→_
 [Form component](https://developer.atlassian.com/platform/forge/ui-components/form/)
