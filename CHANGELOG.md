@@ -29,3 +29,7 @@ All notable changes to the "forge-snippets" extension will be documented in this
 ## [0.0.7]
 
 - Add demo gif to docs.
+
+## [0.0.8]
+
+- Replace demo gif location.

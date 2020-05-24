@@ -2,7 +2,7 @@
 
 This extension for Visual Studio Code adds snippets for [Forge UI](https://developer.atlassian.com/platform/forge/ui-components/). Supports .jsx file extension.
 
-![Demo](./demo.gif)
+![Demo](https://raw.githubusercontent.com/anilkk/vscode-forge-snippets-extension/master/demo.gif)
 
 ## Table of Contents
 
