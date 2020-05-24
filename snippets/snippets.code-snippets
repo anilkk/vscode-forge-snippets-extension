@@ -251,5 +251,24 @@
     ],
     "description": "A ConfigForm is a special type of Form that defines the configuration options of a macro. It can contain any other component, except another Form or a ConfigForm. Use configuration to store general data, but not sensitive information. The configuration data is stored in plaintext, so other users and apps can modify the values. Unlike a Form, a ConfigForm does not have an onSubmit prop. Instead, you retrieve the values with the useConfig hook.",
     "scope": "javascriptreact"
+  },
+  "Forge Form Avatar component": {
+    "prefix": "fforma",
+    "body": ["<Avatar accountId=\"5a1234bc8d12345e3f1g11hi\" />"],
+    "description": "A component that represents the avatar (name and profile picture) of a user, subject to their privacy settings.",
+    "scope": "javascriptreact"
+  },
+  "Forge Form AvatarStack component": {
+    "prefix": "fformas",
+    "body": [
+      "<AvatarStack>",
+      "\t<Avatar accountId=\"5a1234bc8d12345e3f1g11hi\" />",
+      "\t<Avatar accountId=\"2a98a42dbc7ab42e12ee360d\" />",
+      "\t<Avatar accountId=\"5d8732lq8jg85a0e3f1g90as\" />",
+      "\t<Avatar accountId=\"2h98a10dbl5ab93e62hja23z\" />",
+      "</AvatarStack>"
+    ],
+    "description": "A component that represents multiple avatars (name and profile picture) for users, subject to their privacy settings.",
+    "scope": "javascriptreact"
   }
 }

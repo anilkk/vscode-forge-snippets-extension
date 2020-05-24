@@ -33,6 +33,8 @@ Type part of a snippet, press enter, and the snippet unfolds.
 |          `fformcg→` | Form CheckboxGroup component | [Form CheckboxGroup](#FormCheckboxGroupCode)       |
 |           `fformu→` | Form UserPicker component    | [Form UserPicker](#FormUserPickerCode)             |
 |      `fconfigform→` | ConfigForm component         | [ConfigForm CheckboxGroup](#FormCheckboxGroupCode) |
+|          `fformua→` | Form Avatar component        | [Form Avatar](#AvatarCode)                         |
+|         `fformuas→` | Form AvatarStack component   | [Form AvatarStack](#FormUsAvatarStackCode)         |
 
 Alternatively, press Ctrl+Space to activate snippets from within the editor.
 
@@ -341,4 +343,30 @@ const Config = () => {
     </ConfigForm>
   );
 };
+```
+
+## AvatarCode
+
+**Shortcut**: _fformua→_
+[Avatar component](https://developer.atlassian.com/platform/forge/ui-components/avatar)
+
+```jsx
+<Avatar accountId="5a1234bc8d12345e3f1g11hi" />
+```
+
+## AvatarStackCode
+
+**Shortcut**: _fformuas→_
+[AvatarStack component](https://developer.atlassian.com/platform/forge/ui-components/avatar-stack)
+
+```jsx
+<AvatarStack>
+  <Avatar accountId="5a1234bc8d12345e3f1g11hi" />
+  <Avatar accountId="2a98a42dbc7ab42e12ee360d" />
+  <Avatar accountId="5d8732lq8jg85a0e3f1g90as" />
+  <Avatar accountId="2h98a10dbl5ab93e62hja23z" />
+  <Avatar accountId="7b20f0bc2d05325e3f1g43ty" />
+  <Avatar accountId="2p72s42dbc7ab42e90gf252d" />
+  <Avatar accountId="2l01x78mf4pqw42e84fg40ad" />
+</AvatarStack>
 ```
