@@ -17,3 +17,7 @@ All notable changes to the "forge-snippets" extension will be documented in this
 ## [0.0.4]
 
 - Docs update.
+
+## [0.0.5]
+
+- Snippets langauge update.
