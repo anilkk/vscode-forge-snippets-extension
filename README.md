@@ -29,6 +29,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 |          `fformta→` | Form TextArea component   | [Form TextField](#FormTextAreaCode)       |
 |           `fforms→` | Form Select component     | [Form Select](#FormSelectCode)            |
 |          `fformrg→` | Form RadioGroup component | [Form RadioGroup](#FormRadioGroupCode)    |
+|          `fformdp→` | Form DatePicker component | [Form DatePicker](#FormDatePickerCode)    |
 
 Alternatively, press Ctrl+Space to activate snippets from within the editor.
 
@@ -291,4 +292,13 @@ Alternatively, press Ctrl+Space to activate snippets from within the editor.
   <Radio label="Cinnamon" value="cinnamon" />
   <Radio label="Chocolate" value="chocolate" />
 </RadioGroup>
+```
+
+## FormDatePickerCode
+
+**Shortcut**: _fformdp→_
+[Form DatePicker component](https://developer.atlassian.com/platform/forge/ui-components/form/#datepicker)
+
+```jsx
+<DatePicker name="date" label="Appointment Date" />
 ```

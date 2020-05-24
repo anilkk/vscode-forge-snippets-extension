@@ -213,5 +213,11 @@
     ],
     "description": "A component to group Radio buttons. It can only be used inside a Form or ConfigForm.",
     "scope": "javascriptreact"
+  },
+  "Forge Form DatePicker component": {
+    "prefix": "fformdp",
+    "body": ["<DatePicker name=\"date\" label=\"Appointment Date\" />"],
+    "description": "A form component that provides calendar date input. The value displayed is in the user’s locale (i.e. 'DD-MM-YYYY' for en-NZ.). It can only be used inside a Form or ConfigForm.",
+    "scope": "javascriptreact"
   }
 }
