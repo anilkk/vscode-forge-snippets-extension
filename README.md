@@ -14,12 +14,12 @@ Type part of a snippet, press enter, and the snippet unfolds.
 |            `ftxts→` | Text strong component        | [Text strong](#TextStrongCode)                     |
 |            `ftxte→` | Text emphasis component      | [Text emphasis](#TextEmphasisCode)                 |
 |         `ftxtstri→` | Text strike component        | [Text strike](#TextStrikeCode)                     |
-|            `ftxtl→` | Text link component          | [Text link](#TextLinkCode)                         |
-|            `ftxtc→` | Code component               | [Code](#Code)                                      |
-|           `ftxtul→` | Unordered list component     | [Unordered list](#UnorderedListCode)               |
-|           `ftxtol→` | Ordered list component       | [Ordered list](#OrderedListCode)                   |
-|           `ftxtlo→` | Lozenge component            | [Lozenge](#LozengeCode)                            |
-|           `ftxtdl→` | DateLozenge component        | [DateLozenge](#DateLozengeCode)                    |
+|            `flink→` | Link component               | [Link](#LinkCode)                                  |
+|            `fcode→` | Code component               | [Code](#Code)                                      |
+|           `flistu→` | Unordered list component     | [Unordered list](#UnorderedListCode)               |
+|           `flisto→` | Ordered list component       | [Ordered list](#OrderedListCode)                   |
+|             `floz→` | Lozenge component            | [Lozenge](#LozengeCode)                            |
+|            `fdate→` | DateLozenge component        | [DateLozenge](#DateLozengeCode)                    |
 |          `ffrgmnt→` | Fragment component           | [Fragment](#FragmentCode)                          |
 |             `fimg→` | Image component              | [Image](#ImageCode)                                |
 |            `fmodd→` | ModalDialog component        | [ModalDialog](#ModalDialogCode)                    |
@@ -31,12 +31,27 @@ Type part of a snippet, press enter, and the snippet unfolds.
 |          `fformrg→` | Form RadioGroup component    | [Form RadioGroup](#FormRadioGroupCode)             |
 |          `fformdp→` | Form DatePicker component    | [Form DatePicker](#FormDatePickerCode)             |
 |          `fformcg→` | Form CheckboxGroup component | [Form CheckboxGroup](#FormCheckboxGroupCode)       |
-|           `fformu→` | Form UserPicker component    | [Form UserPicker](#FormUserPickerCode)             |
+|          `fformup→` | Form UserPicker component    | [Form UserPicker](#FormUserPickerCode)             |
 |      `fconfigform→` | ConfigForm component         | [ConfigForm CheckboxGroup](#FormCheckboxGroupCode) |
-|          `fformua→` | Form Avatar component        | [Form Avatar](#AvatarCode)                         |
-|         `fformuas→` | Form AvatarStack component   | [Form AvatarStack](#FormUsAvatarStackCode)         |
+|          `favatar→` | Avatar component             | [Avatar](#AvatarCode)                              |
+|         `favatars→` | AvatarStack component        | [AvatarStack](#FormUsAvatarStackCode)              |
 
 Alternatively, press Ctrl+Space to activate snippets from within the editor.
+
+## Not supported components
+
+Currently, the following components shortcuts are not available. Most of the time, following code components code, is generated while you create the specific type of Forge app.
+
+1. [ContentAction](https://developer.atlassian.com/platform/forge/ui-components/content-action/)
+2. [ContextMenu](https://developer.atlassian.com/platform/forge/ui-components/context-menu/)
+3. [InlineDialog](https://developer.atlassian.com/platform/forge/ui-components/inline-dialog/)
+4. [IssueGlance](https://developer.atlassian.com/platform/forge/ui-components/issue-glance/)
+5. [IssuePanel](https://developer.atlassian.com/platform/forge/ui-components/issue-panel/)
+6. [Macro](https://developer.atlassian.com/platform/forge/ui-components/macro/)
+
+## Forge UI hooks
+
+Coming soon...
 
 ## Installation
 
@@ -113,9 +128,9 @@ Alternatively, press Ctrl+Space to activate snippets from within the editor.
 <Text>~~strike~~</Text>
 ```
 
-## TextLinkCode
+## LinkCode
 
-**Shortcut**: _ftxtl→_
+**Shortcut**: _flink→_
 [Text component](https://developer.atlassian.com/platform/forge/ui-components/text/)
 
 ```jsx
@@ -124,7 +139,7 @@ Alternatively, press Ctrl+Space to activate snippets from within the editor.
 
 ## Code
 
-**Shortcut**: _ftxtc→_
+**Shortcut**: _fcode→_
 [Text component](https://developer.atlassian.com/platform/forge/ui-components/text/)
 
 ```jsx
@@ -133,7 +148,7 @@ Alternatively, press Ctrl+Space to activate snippets from within the editor.
 
 ## UnorderedListCode
 
-**Shortcut**: _ftxtul→_
+**Shortcut**: _flistu→_
 [Text component](https://developer.atlassian.com/platform/forge/ui-components/text/)
 
 ```jsx
@@ -145,7 +160,7 @@ Alternatively, press Ctrl+Space to activate snippets from within the editor.
 
 ## OrderedListCode
 
-**Shortcut**: _ftxtol→_
+**Shortcut**: _flisto→_
 [Text component](https://developer.atlassian.com/platform/forge/ui-components/text/)
 
 ```jsx
@@ -157,7 +172,7 @@ Alternatively, press Ctrl+Space to activate snippets from within the editor.
 
 ## LozengeCode
 
-**Shortcut**: _ftxtlo→_
+**Shortcut**: _floz→_
 [Lozenge component](https://developer.atlassian.com/platform/forge/ui-components/text/#lozenge)
 
 ```jsx
@@ -168,8 +183,8 @@ Alternatively, press Ctrl+Space to activate snippets from within the editor.
 
 ## DateLozenge
 
-**Shortcut**: _ftxtdl→_
-[DateLozenge component](https://developer.atlassian.com/platform/forge/ui-components/text/#lozenge)
+**Shortcut**: _fdate→_
+[DateLozenge component](https://developer.atlassian.com/platform/forge/ui-components/text/#datelozenge)
 
 ```jsx
 <Text>
@@ -322,7 +337,7 @@ Alternatively, press Ctrl+Space to activate snippets from within the editor.
 
 ## FormUserPickerCode
 
-**Shortcut**: _fformu→_
+**Shortcut**: _fformup→_
 [Form UserPicker component](https://developer.atlassian.com/platform/forge/ui-components/form/#userpicker)
 
 ```jsx
@@ -347,7 +362,7 @@ const Config = () => {
 
 ## AvatarCode
 
-**Shortcut**: _fformua→_
+**Shortcut**: _favatar→_
 [Avatar component](https://developer.atlassian.com/platform/forge/ui-components/avatar)
 
 ```jsx
@@ -356,7 +371,7 @@ const Config = () => {
 
 ## AvatarStackCode
 
-**Shortcut**: _fformuas→_
+**Shortcut**: _favatars→_
 [AvatarStack component](https://developer.atlassian.com/platform/forge/ui-components/avatar-stack)
 
 ```jsx
