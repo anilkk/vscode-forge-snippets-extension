@@ -8,7 +8,7 @@ All notable changes to the "forge-snippets" extension will be documented in this
 
 ## [0.0.2]
 
-- Added support for additional components.
+- Added Button, ButtonSet, Image, Text, link, code, unorder list, order list, strong text, strike text and emphasis text components.
 
 ## [0.0.3]
 
