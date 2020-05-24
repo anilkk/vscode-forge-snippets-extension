@@ -12,4 +12,4 @@ All notable changes to the "forge-snippets" extension will be documented in this
 
 ## [0.0.3]
 
-- Added Form, TextField, TextArea, Select, Radio, RadioGroup, DatePicker, CheckboxGroup, ConfigForm components.
+- Added Form, TextField, TextArea, Select, Radio, RadioGroup, DatePicker, CheckboxGroup, UserPicker, ConfigForm components.

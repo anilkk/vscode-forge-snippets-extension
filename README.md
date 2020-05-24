@@ -31,6 +31,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 |          `fformrg→` | Form RadioGroup component    | [Form RadioGroup](#FormRadioGroupCode)             |
 |          `fformdp→` | Form DatePicker component    | [Form DatePicker](#FormDatePickerCode)             |
 |          `fformcg→` | Form CheckboxGroup component | [Form CheckboxGroup](#FormCheckboxGroupCode)       |
+|           `fformu→` | Form UserPicker component    | [Form UserPicker](#FormUserPickerCode)             |
 |      `fconfigform→` | ConfigForm component         | [ConfigForm CheckboxGroup](#FormCheckboxGroupCode) |
 
 Alternatively, press Ctrl+Space to activate snippets from within the editor.
@@ -315,6 +316,15 @@ Alternatively, press Ctrl+Space to activate snippets from within the editor.
   <Checkbox value="jira" label="Jira" />
   <Checkbox value="confluence" label="Confluence" />
 </CheckboxGroup>
+```
+
+## FormUserPickerCode
+
+**Shortcut**: _fformu→_
+[Form UserPicker component](https://developer.atlassian.com/platform/forge/ui-components/form/#userpicker)
+
+```jsx
+<UserPicker label="User" name="user" />
 ```
 
 ## ConfigForm

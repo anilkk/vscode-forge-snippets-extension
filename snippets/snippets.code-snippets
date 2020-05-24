@@ -231,6 +231,12 @@
     "description": "A logical group of Checkbox components. It can only be used within a Form or ConfigForm. All Checkbox components must be contained within a CheckboxGroup.",
     "scope": "javascriptreact"
   },
+  "Forge Form UserPicker component": {
+    "prefix": "fformu",
+    "body": ["<UserPicker label=\"User\" name=\"user\" />"],
+    "description": "A form component that provides a dropdown control populated with users. Use it when you need to select a user on the site. It can only be used inside a Form or ConfigForm.",
+    "scope": "javascriptreact"
+  },
   "Forge ConfigForm component": {
     "prefix": "fconfigform",
     "body": [
