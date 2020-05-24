@@ -175,19 +175,19 @@
       "\t</CheckboxGroup>",
       "</Form>"
     ],
-    "description": "The Form component contains a list of components, a submit button, and a function that handles the submit event. It can contain any other component, except another Form or a ConfigForm.",
+    "description": "Form component contains a list of components, a submit button, and a function that handles the submit event. It can contain any other component, except another Form or a ConfigForm.",
     "scope": "javascriptreact"
   },
   "Forge Form TextField component": {
     "prefix": "fformtf",
     "body": ["<TextField label=\"Name\" name=\"name\" />"],
-    "description": "This component provides a text field input control. Use this when you need a single line of input. It can only be used inside a Form or ConfigForm.",
+    "description": "Form TextField component provides a text field input control. Use this when you need a single line of input. It can only be used inside a Form or ConfigForm.",
     "scope": "javascriptreact"
   },
   "Forge Form TextArea component": {
     "prefix": "fformta",
     "body": ["<TextArea label=\"Message\" name=\"message\" />"],
-    "description": "This component provides a text area input control. Use it when you need multi-line input. It can only be used inside a Form or ConfigForm.",
+    "description": "Form TextArea component provides a text area input control. Use it when you need multi-line input. It can only be used inside a Form or ConfigForm.",
     "scope": "javascriptreact"
   },
   "Forge Form Select component": {
@@ -199,7 +199,7 @@
       "\t<Option label=\"Milestone 3\" value=\"three\" />",
       "</Select>"
     ],
-    "description": "A form field component that provides a select list control. It can only be used inside a Form or ConfigForm.",
+    "description": "Form Select component, that provides a select list control. It can only be used inside a Form or ConfigForm.",
     "scope": "javascriptreact"
   },
   "Forge Form RadioGroup component": {
@@ -211,13 +211,13 @@
       "\t<Radio label=\"Chocolate\" value=\"chocolate\" />",
       "</RadioGroup>"
     ],
-    "description": "A component to group Radio buttons. It can only be used inside a Form or ConfigForm.",
+    "description": "Form RadioGroup component to group Radio buttons. It can only be used inside a Form or ConfigForm.",
     "scope": "javascriptreact"
   },
   "Forge Form DatePicker component": {
     "prefix": "fformdp",
     "body": ["<DatePicker name=\"date\" label=\"Appointment Date\" />"],
-    "description": "A form component that provides calendar date input. The value displayed is in the user’s locale (i.e. 'DD-MM-YYYY' for en-NZ.). It can only be used inside a Form or ConfigForm.",
+    "description": "Form DatePicker component that provides calendar date input. The value displayed is in the user’s locale (i.e. 'DD-MM-YYYY' for en-NZ.). It can only be used inside a Form or ConfigForm.",
     "scope": "javascriptreact"
   },
   "Forge Form CheckboxGroup component": {
@@ -228,13 +228,13 @@
       "\t<Checkbox value=\"confluence\" label=\"Confluence\" />",
       "</CheckboxGroup>"
     ],
-    "description": "A logical group of Checkbox components. It can only be used within a Form or ConfigForm. All Checkbox components must be contained within a CheckboxGroup.",
+    "description": "Form CheckboxGroup component, a logical group of Checkbox components. It can only be used within a Form or ConfigForm. All Checkbox components must be contained within a CheckboxGroup.",
     "scope": "javascriptreact"
   },
   "Forge Form UserPicker component": {
     "prefix": "fformup",
     "body": ["<UserPicker label=\"User\" name=\"user\" />"],
-    "description": "A form component that provides a dropdown control populated with users. Use it when you need to select a user on the site. It can only be used inside a Form or ConfigForm.",
+    "description": "Form UserPicker component that provides a dropdown control populated with users. Use it when you need to select a user on the site. It can only be used inside a Form or ConfigForm.",
     "scope": "javascriptreact"
   },
   "Forge ConfigForm component": {
@@ -249,13 +249,13 @@
       "\t);",
       "};"
     ],
-    "description": "A ConfigForm is a special type of Form that defines the configuration options of a macro. It can contain any other component, except another Form or a ConfigForm. Use configuration to store general data, but not sensitive information. The configuration data is stored in plaintext, so other users and apps can modify the values. Unlike a Form, a ConfigForm does not have an onSubmit prop. Instead, you retrieve the values with the useConfig hook.",
+    "description": "ConfigForm component is a special type of Form that defines the configuration options of a macro. It can contain any other component, except another Form or a ConfigForm. Use configuration to store general data, but not sensitive information. The configuration data is stored in plaintext, so other users and apps can modify the values. Unlike a Form, a ConfigForm does not have an onSubmit prop. Instead, you retrieve the values with the useConfig hook.",
     "scope": "javascriptreact"
   },
   "Forge Avatar component": {
     "prefix": "favatar",
     "body": ["<Avatar accountId=\"5a1234bc8d12345e3f1g11hi\" />"],
-    "description": "A component that represents the avatar (name and profile picture) of a user, subject to their privacy settings.",
+    "description": "Avatar component that represents the avatar (name and profile picture) of a user, subject to their privacy settings.",
     "scope": "javascriptreact"
   },
   "Forge AvatarStack component": {
@@ -268,7 +268,7 @@
       "\t<Avatar accountId=\"2h98a10dbl5ab93e62hja23z\" />",
       "</AvatarStack>"
     ],
-    "description": "A component that represents multiple avatars (name and profile picture) for users, subject to their privacy settings.",
+    "description": "AvatarStack component that represents multiple avatars (name and profile picture) for users, subject to their privacy settings.",
     "scope": "javascriptreact"
   }
 }

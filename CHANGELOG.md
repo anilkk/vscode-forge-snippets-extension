@@ -20,4 +20,8 @@ All notable changes to the "forge-snippets" extension will be documented in this
 
 ## [0.0.5]
 
-- Snippets langauge update.
+- Snippets language update.
+
+## [0.0.6]
+
+- added contact and update docs.

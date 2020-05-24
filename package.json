@@ -3,7 +3,7 @@
   "displayName": "Forge snippets",
   "description": "Atlassian Forge UI snippets generator",
   "publisher": "AnilKumar",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "license": "MIT",
   "icon": "icon.png",
   "repository": {

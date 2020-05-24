@@ -8,6 +8,7 @@ This extension for Visual Studio Code adds snippets for [Forge UI](https://devel
 - **[Not supported components](#not-supported-components)**<br>
 - **[Forge-ui-hooks](#forge-ui-hooks)**<br>
 - **[Installation](#installation)**<br>
+- **[Contact](#contact)**<br>
 
 ## Usage
 
@@ -393,3 +394,7 @@ const Config = () => {
   <Avatar accountId="2l01x78mf4pqw42e84fg40ad" />
 </AvatarStack>
 ```
+
+## Contact
+
+If you have any suggestions or feedabck please contact [@anilbms75](https://twitter.com/anilbms75).
