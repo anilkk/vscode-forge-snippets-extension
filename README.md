@@ -28,7 +28,7 @@ Type part of a snippet, press enter, and the snippet unfolds.
 |            `fcode→` | Code component               | [Code](#Code)                                      |
 |           `flistu→` | Unordered list component     | [Unordered list](#UnorderedListCode)               |
 |           `flisto→` | Ordered list component       | [Ordered list](#OrderedListCode)                   |
-|             `floz→` | Lozenge component            | [Lozenge](#LozengeCode)                            |
+|          `fstatus→` | StatusLozenge component      | [StatusLozenge](#StatusLozengeCode)                |
 |            `fdate→` | DateLozenge component        | [DateLozenge](#DateLozengeCode)                    |
 |          `ffrgmnt→` | Fragment component           | [Fragment](#FragmentCode)                          |
 |             `fimg→` | Image component              | [Image](#ImageCode)                                |
@@ -180,14 +180,15 @@ Coming soon...
 <Text> 4. Item 4 </Text>
 ```
 
-## LozengeCode
+## StatusLozengeCode
 
-**Shortcut**: _floz→_
-[Lozenge component](https://developer.atlassian.com/platform/forge/ui-components/text/#lozenge)
+**Shortcut**: _fstatus→_
+[StatusLozenge component](https://developer.atlassian.com/platform/forge/ui-components/text/#statuslozenge)
 
 ```jsx
 <Text>
-  You have 4 tickets: <Lozenge text="In progress" appearance="inprogress" />
+  You have 4 tickets:{' '}
+  <StatusLozenge text="In progress" appearance="inprogress" />
 </Text>
 ```
 

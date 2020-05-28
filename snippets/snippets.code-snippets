@@ -84,14 +84,14 @@
     "description": "Code component",
     "scope": "javascriptreact"
   },
-  "Forge Lozenge component": {
+  "Forge StatusLozenge component": {
     "prefix": "floz",
     "body": [
       "<Text>",
-      "\tYou have 4 tickets: <Lozenge text=\"In progress\" appearance=\"inprogress\" />",
-      "</Text>"
+      "\tYou have 4 tickets: <StatusLozenge text=\"In progress\" appearance=\"inprogress\" />",
+      "</Text>",
     ],
-    "description": "Lozenge text component, an inline component that displays a status lozenge.",
+    "description": "StatusLozenge text component, An inline component that displays a status lozenge.",
     "scope": "javascriptreact"
   },
   "Forge DateLozenge component": {

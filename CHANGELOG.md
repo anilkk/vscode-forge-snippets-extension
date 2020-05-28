@@ -33,3 +33,7 @@ All notable changes to the "forge-snippets" extension will be documented in this
 ## [0.0.8]
 
 - Replace demo gif location.
+
+## [0.0.9]
+
+- Update Lozenge to StatusLozenge
