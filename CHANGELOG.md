@@ -37,3 +37,7 @@ All notable changes to the "forge-snippets" extension will be documented in this
 ## [0.0.9]
 
 - Update Lozenge to StatusLozenge
+
+## [0.0.10]
+
+- Add useState and useAction

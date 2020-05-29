@@ -89,7 +89,7 @@
     "body": [
       "<Text>",
       "\tYou have 4 tickets: <StatusLozenge text=\"In progress\" appearance=\"inprogress\" />",
-      "</Text>",
+      "</Text>"
     ],
     "description": "StatusLozenge text component, An inline component that displays a status lozenge.",
     "scope": "javascriptreact"
@@ -269,6 +269,23 @@
       "</AvatarStack>"
     ],
     "description": "AvatarStack component that represents multiple avatars (name and profile picture) for users, subject to their privacy settings.",
+    "scope": "javascriptreact"
+  },
+  "Forge useState": {
+    "prefix": "fustate",
+    "body": ["const [count, setCount] = useState(0);"],
+    "description": "useState hook adds and updates local state to a component. Forge UI Hooks are functions that let you manage app state and do things such as prefetching data to render your app.",
+    "scope": "javascriptreact"
+  },
+  "Forge useAction": {
+    "prefix": "fuaction",
+    "body": [
+      "const [count, setCount] = useAction(",
+      "\t(currentCount, step) => currentCount + step,",
+      "\t0",
+      ");"
+    ],
+    "description": "useAction hook manages local state in a similar way to the useState hook, providing a more complex reducer argument to update state.",
     "scope": "javascriptreact"
   }
 }

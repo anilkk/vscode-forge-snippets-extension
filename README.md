@@ -61,7 +61,12 @@ Currently, the following components shortcuts are not available. Most of the tim
 
 ## Forge UI hooks
 
-Coming soon...
+Type part of a snippet, press enter, and the snippet unfolds.
+
+| Shortcut Identifier | Hook      | Code                       |
+| ------------------: | --------- | -------------------------- |
+|          `fustate→` | useState  | [useState](#useStateCode)  |
+|         `fuaction→` | useAction | [useState](#useActionCode) |
 
 ## Installation
 
@@ -401,3 +406,24 @@ const Config = () => {
 ## Contact
 
 If you have any suggestions or feedabck please contact [@anilbms75](https://twitter.com/anilbms75).
+
+## useStateCode
+
+**Shortcut**: _fustate→_
+[useState hook](https://developer.atlassian.com/platform/forge/ui-hooks-reference/#usestate)
+
+```jsx
+const [count, setCount] = useState(0);
+```
+
+## useActionCode
+
+**Shortcut**: _fuaction→_
+[useAction hook](https://developer.atlassian.com/platform/forge/ui-hooks-reference/#useaction)
+
+```jsx
+const [count, setCount] = useAction(
+  (currentCount, step) => currentCount + step,
+  0
+);
+```
